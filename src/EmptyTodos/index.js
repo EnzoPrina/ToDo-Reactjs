@@ -1,7 +1,8 @@
 import React from "react";
+import './Empty.css'
 
 function EmptyTodos() {
-    return <p>¡Crea tu primer TODO!</p>
+    return <p className="text">¡Crea tu primer TODO!</p>
 }
 
 export { EmptyTodos };
